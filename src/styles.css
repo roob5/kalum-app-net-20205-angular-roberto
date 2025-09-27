@@ -1,0 +1,13 @@
+/* Importa el core de Angular Material */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+/* Opcional: personalizar con variables */
+:root {
+  --mdc-theme-primary: #3f51b5; /* Indigo */
+  --mdc-theme-secondary: #e91e63; /* Pink */
+  --mdc-theme-error: #f44336; /* Red */
+}
+
+mat-toolbar mat-icon {
+  color: white;
+}
