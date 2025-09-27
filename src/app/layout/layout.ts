@@ -26,10 +26,11 @@ import { Sidenav } from './sidenav/sidenav';
 })
 export class Layout {
 
-  isSidenavOpen = signal(false);
+  isSidenavOpen = signal(true);
 
   toggleSidenav() {
-    this.isSidenavOpen.update(v => !v);
+   this.isSidenavOpen.update(v => !v);
+   //return true;
   }
 
 }
